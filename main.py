@@ -13,7 +13,7 @@ def main(service):
     message = client.messages.create(
         body="Hello from Twilio!",  # Your message content
         from_="+12512701257",  # Your Twilio phone number
-        to="+4917672753971"  # The recipient's phone number
+        to="+491xxxxxxxxxx"  # The recipient's phone number
     )
   
     print(f"Message sent with SID: {message.sid}")
